@@ -1,4 +1,4 @@
-# Frontend
+# Frontend (@nei/frontend)
 
 > NotEnoughIdea frontend using Vue and Webpack
 

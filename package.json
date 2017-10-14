@@ -1,5 +1,5 @@
 {
-  "name": "not-enough-idea",
+  "name": "@nei/frontend",
   "version": "1.0.0",
   "description": "NotEnoughIdea frontend using Vue and Webpack",
   "author": "LightDiscord <contact@lightdiscord.fr>",
