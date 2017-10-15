@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello-world/>
-  </div>
+<section class="hero is-dark is-fullheight">
+  <hero-head></hero-head>
+  <hero-body></hero-body>
+  <hero-foot></hero-foot>
+</section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import HeroHead from './components/HeroHead'
+import HeroBody from './components/HeroBody'
+import HeroFoot from './components/HeroFoot'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HeroHead, HeroBody, HeroFoot
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html {
+  overflow-y: auto;
 }
 </style>
