@@ -55,7 +55,7 @@ export default {
       const request = new XMLHttpRequest()
       request.open('GET', `https://raw.githubusercontent.com/NotEnoughIdea/Ideas/master/resources/${page}.txt`, false)
       request.send()
-      return request.responseText.split('\n')
+      return request.responseText.split('\n').map(value => value.trim()).filter(value => !!value)
     }
   }
 }
